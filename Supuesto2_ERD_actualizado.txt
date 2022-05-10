@@ -1,0 +1,5 @@
+Clientes(#idCliente,dniCliente,nombreCliente,apellidosCliente,direccionCliente,telefonoCliente,correoCliente)
+Empleados(#idEmpleado,dniEmpleado,nombreEmpleado,apellidosEmpleado,telefonoEmpleado,emailEmpleado)
+Proveedores(#idProveedor,cifProveedor,nombreProveedor,direccionProveedor,telefonoProveedor,correoProveedor)
+Productos(#idProducto,codigoProducto,descripcionProducto,precioProducto,medidasProducto,cantidadalmacenProducto,descuentoProducto,#idProveedorFK)
+Pedido(#idPedido,numeroPedido,fechaenvioPedido,fechaentregaPedido,#idProductoFK,#idEmpleadoFK,#idClienteFK)
